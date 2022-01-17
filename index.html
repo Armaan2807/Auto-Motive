@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Auto Motive</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <i class="fa fa-car"></i> AUTO MOTIVE
+            </div>
+            <ul>
+                <li><a href="#" class="selected">HOME</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">PRICE</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#" class="highlight">BOOK APOINTMENT</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="container">
+                <h1>YOUR CAR REPAIRS</h1>
+                <p>VISIT US FOR YOUR SERVICE</p>
+                <a class="highlight" href="#">BOOK YOUR APPOINTMENT</a>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <ul class="container">
+            <li>
+                <strong>OUR LOCATION</strong>
+                <p>Dehradun,Uttarakhand</p>
+            </li>
+            <li>
+                <strong>PHONE</strong>
+                <p>09766447869</p>
+            </li>
+            <li>
+                <strong>EMAIL US</strong>
+                <p>abc.gmail</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: sans-serif;
+        margin: 0px;
+    }
+
+    header {
+        background-image: url(car-bg.jpg);
+        color: white;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .container {
+        width: 1000px;
+        margin: 0px auto;
+        max-width: 100%;
+    }
+
+    header.content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: auto;
+    }
+
+    .content h1 {
+        color: #00c2ff;
+        margin-bottom: 0px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    nav.logo {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0px;
+    }
+
+    nav ul a {
+        color: white;
+        padding: 1rem;
+        text-decoration: none;
+    }
+
+    .selected {
+        font-weight: bold;
+    }
+
+    .highlight {
+        background-color: #00c2ff;
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
+    }
+    footer{
+background-color: #000;
+color: white;
+padding: 1rem;
+    }
+    footer ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        padding: 0px;
+    }
+    footer strong{
+     color:#00c2ff;
+
+    }
+</style>
+
+</html>
